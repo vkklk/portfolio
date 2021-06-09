@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+/* navigation */
+
+.header {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    padding: 50px 0;
+
+    background: #e6e6e6;
+    border-bottom: 1px solid rgb(236, 91, 91);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+
+    width: 50%;
+}
+
+.header a{
+    padding: 20px 50px;
+
+    border-bottom: 3px solid rgb(236, 91, 91);
+
+    color: #000;
+}
+
+.header a:hover{
+    background:rgba(255, 205, 205, 0.349);
+}
+
+
+
+
+/* about me*/
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 800px;
+
+    background: #ffd3d3;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 50%;
+    
+}
+
+.information img{
+    width: 300px;
+}
+
+.information p{
+    display: inline;
+
+    margin-left: 250px;
+
+    font-size: 28px;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgb(236, 91, 91);
+}
+
+.list {
+    line-height: 25px;
+}
+
+
+
+/*portfolio*/
+
+
+
+.workshop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 800px;
+
+    background: #f57979; 
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 50%;
+    height: 300px;
+    
+    border: 3px solid rgb(255, 219, 219);
+    border-radius: 5px;
+
+    color: rgb(255, 227, 227);
+    font-size: 28px;
+}
+.labs {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 50%;
+}
+.labs a {
+    margin: 20px 0;
+    padding: 20px 25px;
+
+    border-radius: 5px;
+
+    color: rgb(71, 71, 71);
+    font-weight: 300;
+}
+
+.labs a:hover{
+    background:rgba(255, 205, 205, 0.349);
+} 
+
+
+
+/*contacts*/
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+
+    background: #b15454; 
+}
+
+
+.footer p {
+    color: #fff;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts a{
+    padding: 15px;
+
+    font-size: 24px;
+    text-transform: uppercase;
+    color: rgb(255, 189, 189);
+    text-decoration: underline;
+}
+
+
+

@@ -1,0 +1,17 @@
+body {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    padding: 50px;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background:rgb(241, 119, 119);
+}
+    

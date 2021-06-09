@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrap {
+	position: relative;
+	width: 1053px;
+	height: 530px;
+    background: #493933;
+}
+.wrap__body{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+.wrap__image{
+	position: relative;
+	width: 330px;
+	height: 394px;
+	background-image: url("img/Big-Gream-burger.png.pagespeed.ce.QAOzmG03Mt.png");
+	background-size: 120%;
+    background-color: wheat;
+}
+.wrap__text{
+	position: absolute;
+	bottom: 20px;
+	right: 5px;
+	width: 335px;
+	height: 212px;
+	background: black;
+}
+.wrap__main{
+	width: 611px;
+	height: 394px;
+	background: white;
+}
+.wrap__title{
+	margin-top: 40px;
+}
+.main__body{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-left: 10px;
+	width: 50%;
+	height: 60%;
+}
+.wrap__content{
+	width: 90%;
+	height: 73px;
+	margin-bottom: 5px;
+}
+.content__cost{
+	color: #999999;
+}
+.content__rhomb{
+	margin: 10px 0;
+    display: inline-block;
+    transform: rotate(-45deg);
+    width: 8px;
+    height: 8px;
+    background: #999999;
+}
+.content__footer{
+	display: inline-flex;
+    align-items: center;
+}
+.content__footer::before{
+	content:"";
+	width: 100px;
+    height: 1px;
+    background: #999999;
+}
+.content__footer::after{
+	content: "";
+	width: 100px;
+    height: 1px;
+    background: #999999;
+}
+.wrap__botton{
+	position: absolute;
+	bottom: 45px;
+	right: 55px;
+	width: 175px;
+	height: 55px;
+}
+.botton__content{
+	position: relative;
+	top:26%;
+}
+.text__content{
+	position: relative;
+	top: 40px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.text__content p{
+	color: #fdca19;
+	display: inline-block;
+}
+.text__content:first-of-type{
+	line-height: 38px;
+	font-size: 50px;
+	font-weight: bold;
+}
+.wrap__text,.wrap__title,.wrap__content,.wrap__botton{
+	text-align: center;
+}
+.wrap__title,.content__title{
+	font-size: 20px;
+}
+.botton__content,.content__cost{
+	font-size: 19px;
+}
+.wrap__text,.wrap__botton{
+	background: black;
+}
+.botton__content,.text__content{
+	color: white;
+}
